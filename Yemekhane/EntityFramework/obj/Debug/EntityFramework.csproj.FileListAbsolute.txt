@@ -1,0 +1,15 @@
+C:\Users\ilyas\source\repos\EntityFramework\EntityFramework\bin\Debug\EntityFramework.exe.config
+C:\Users\ilyas\source\repos\EntityFramework\EntityFramework\bin\Debug\EntityFramework.exe
+C:\Users\ilyas\source\repos\EntityFramework\EntityFramework\bin\Debug\EntityFramework.pdb
+C:\Users\ilyas\source\repos\EntityFramework\EntityFramework\bin\Debug\EntityFramework.dll
+C:\Users\ilyas\source\repos\EntityFramework\EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ilyas\source\repos\EntityFramework\EntityFramework\bin\Debug\EntityFramework.xml
+C:\Users\ilyas\source\repos\EntityFramework\EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ilyas\source\repos\EntityFramework\EntityFramework\obj\Debug\EntityFramework.csproj.AssemblyReference.cache
+C:\Users\ilyas\source\repos\EntityFramework\EntityFramework\obj\Debug\EntityFramework.Form1.resources
+C:\Users\ilyas\source\repos\EntityFramework\EntityFramework\obj\Debug\EntityFramework.Properties.Resources.resources
+C:\Users\ilyas\source\repos\EntityFramework\EntityFramework\obj\Debug\EntityFramework.csproj.GenerateResource.cache
+C:\Users\ilyas\source\repos\EntityFramework\EntityFramework\obj\Debug\EntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\ilyas\source\repos\EntityFramework\EntityFramework\obj\Debug\EntityFramework.csproj.CopyComplete
+C:\Users\ilyas\source\repos\EntityFramework\EntityFramework\obj\Debug\EntityFramework.exe
+C:\Users\ilyas\source\repos\EntityFramework\EntityFramework\obj\Debug\EntityFramework.pdb

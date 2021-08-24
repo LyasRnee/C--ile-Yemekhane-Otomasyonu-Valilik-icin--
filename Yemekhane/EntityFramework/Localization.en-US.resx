@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addButonu" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="addlblBalance" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="addlblCartId" xml:space="preserve">
+    <value>Cart Id</value>
+  </data>
+  <data name="addlblCartType" xml:space="preserve">
+    <value>Card Type</value>
+  </data>
+  <data name="addlblFirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="addlblFoodPrice" xml:space="preserve">
+    <value>Food Price</value>
+  </data>
+  <data name="addlblLastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="baglantiDurumu" xml:space="preserve">
+    <value>Connection Status</value>
+  </data>
+  <data name="bağlan" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="btnBYPASS" xml:space="preserve">
+    <value>BYPASS</value>
+  </data>
+  <data name="btnRemove" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="CartIdAl" xml:space="preserve">
+    <value>Get By Cart Id</value>
+  </data>
+  <data name="dgwBakiye" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="dgwGun" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="dgwId" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="dgwIsim" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="dgwKartNumarası" xml:space="preserve">
+    <value>Card Number</value>
+  </data>
+  <data name="dgwKartTipi" xml:space="preserve">
+    <value>Card Type</value>
+  </data>
+  <data name="dgwSoyisim" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="dgwYemekUcreti" xml:space="preserve">
+    <value>Food Price</value>
+  </data>
+  <data name="groupBoxIsmi" xml:space="preserve">
+    <value>Add a Customer</value>
+  </data>
+  <data name="groupBoxUpdateIsmi" xml:space="preserve">
+    <value>Update User</value>
+  </data>
+  <data name="guncelleButonu" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="isimAra" xml:space="preserve">
+    <value>Search Name</value>
+  </data>
+  <data name="kapat" xml:space="preserve">
+    <value>Disconnect</value>
+  </data>
+  <data name="KullanıcıDüzenle" xml:space="preserve">
+    <value>Edit User</value>
+  </data>
+  <data name="KullanıcıEkle" xml:space="preserve">
+    <value>Add User</value>
+  </data>
+  <data name="KullanıcıSil" xml:space="preserve">
+    <value>Delete User</value>
+  </data>
+  <data name="KullanıcıSistemi" xml:space="preserve">
+    <value>User System</value>
+  </data>
+  <data name="lblaciklama1" xml:space="preserve">
+    <value>The balance must be greater than 50.</value>
+  </data>
+  <data name="lblaciklama2" xml:space="preserve">
+    <value>Meal Fee must be less than 15.</value>
+  </data>
+  <data name="lblaciklama3" xml:space="preserve">
+    <value>Click on the line of the user you want to update and pull the information to the update screen.</value>
+  </data>
+  <data name="lblaciklama4" xml:space="preserve">
+    <value>You should select the row of the user you want to delete and press the 'Delete' button.</value>
+  </data>
+  <data name="menu" xml:space="preserve">
+    <value>Language Selection</value>
+  </data>
+  <data name="port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="TopluİslembtnBakiyeSifirlaMemur" xml:space="preserve">
+    <value>Reset Balance(Officer)</value>
+  </data>
+  <data name="TopluİslembtnKaydet" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="TopluİslembtnKayitlariSil" xml:space="preserve">
+    <value>Delete Records</value>
+  </data>
+  <data name="TopluİslemlblLogKaydıSilme" xml:space="preserve">
+    <value>Deletion of Log Records =&gt;</value>
+  </data>
+  <data name="TopluİslemlblMemurBakiyeSifirla" xml:space="preserve">
+    <value>Reset Officer Balance(0)  =</value>
+  </data>
+  <data name="TopluİslemlblMisafirUcreti" xml:space="preserve">
+    <value>Guest Price =</value>
+  </data>
+  <data name="TopluİslemlblYemekUcretiMemur" xml:space="preserve">
+    <value>Food Price(Officer) =</value>
+  </data>
+  <data name="TopluİslemlblYemekUcretiMudur" xml:space="preserve">
+    <value>Food Price(Manager) =</value>
+  </data>
+  <data name="Turnike" xml:space="preserve">
+    <value>Tourniqe</value>
+  </data>
+  <data name="updateChoose" xml:space="preserve">
+    <value>Choose..</value>
+  </data>
+  <data name="YemekhaneOtomasyonu" xml:space="preserve">
+    <value>Dining Hall Automation</value>
+  </data>
+  <data name="YemekhaneYöneticiTopluİslemlerButon" xml:space="preserve">
+    <value>Batch Operations</value>
+  </data>
+  <data name="yenile" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+</root>
