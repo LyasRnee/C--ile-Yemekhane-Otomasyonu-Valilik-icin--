@@ -1,0 +1,25 @@
+CREATE TABLE [dbo].[Products] (
+    [Id]            INT           IDENTITY (1, 1) NOT NULL,
+    [CartId]        BIGINT        NOT NULL,
+    [FirstName]     NVARCHAR (30) NOT NULL,
+    [LastName]      NVARCHAR (30) NOT NULL,
+    [CardType]      NVARCHAR (20) NOT NULL,
+    [Balance]       FLOAT (53)    NOT NULL,
+    [FoodPrice]     FLOAT (53)    NOT NULL,
+    [Gun]           FLOAT (53)    NOT NULL,
+    [MisafirUcreti] FLOAT (53)    DEFAULT ((15)) NULL,
+    CONSTRAINT [PK_dbo.Products] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+
+
+CREATE TABLE [dbo].[Logs] (
+    [Tarih]       DATE         NOT NULL,
+    [Saat]        TIME (7)     NOT NULL,
+    [KartNumara]  VARCHAR (50) NOT NULL,
+    [isim]        VARCHAR (50) NOT NULL,
+    [Soyisim]     VARCHAR (50) NOT NULL,
+    [KartTipi]    VARCHAR (20) NOT NULL,
+    [Bakiye]      VARCHAR (20) NOT NULL,
+    [YemekUcreti] VARCHAR (20) NOT NULL
+);
